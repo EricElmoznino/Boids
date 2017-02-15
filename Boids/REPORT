@@ -1,0 +1,49 @@
+CSC D18 - Assignment 1 Report File
+
+In this file you must:
+
+__________________________________________________________________
+1) Describe *briefly* and *concisely* what parts of the assignment
+   you found easier, harder, and/or tricky to get right
+
+
+
+
+__________________________________________________________________
+2) Answer any //QUESTION: items noted in the code
+
+
+
+
+
+
+
+__________________________________________________________________
+3) Describe any //CRUNCHY: extensions you implemented
+
+
+
+
+
+__________________________________________________________________
+
+4) Briefly comment on the following:
+
+a) What is the time complexity of the boid update (in big Oh notation),
+   justify.
+
+b) What could you do to make the update more efficient?
+
+c) What is the greatest bottleneck of the program:
+
+    Is it the boid update code?
+    Or is it the boid display code?
+
+    Why is that? justify your answer.
+
+d) How would you adapt the idea behind Boids to swarms of running
+   creatures (e.g. a herd of charging animals, an army of CGI
+   monsters, a crowd of simulated humans walking). Think of the
+   specific conditions you would need to add to the simulation
+   that are different from your Boids implementation
+

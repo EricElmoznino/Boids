@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		078BB46A1E54E5D300A93732 /* Boids */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = Boids; sourceTree = "<group>"; };
+		078BB46B1E54E5D300A93732 /* Boids.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boids.cpp; sourceTree = "<group>"; };
+		078BB46D1E54E5D300A93732 /* CHECKLIST */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHECKLIST; sourceTree = "<group>"; };
+		078BB46E1E54E5D300A93732 /* compile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile.sh; sourceTree = "<group>"; };
+		078BB46F1E54E5D300A93732 /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		078BB4711E54E5D300A93732 /* imgui_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		078BB4721E54E5D300A93732 /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		078BB4741E54E5D300A93732 /* imgui_impl_glut.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glut.cpp; sourceTree = "<group>"; };
+		078BB4751E54E5D300A93732 /* imgui_impl_glut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_glut.h; sourceTree = "<group>"; };
+		078BB4771E54E5D300A93732 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		078BB4781E54E5D300A93732 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		078BB4791E54E5D300A93732 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		078BB47A1E54E5D300A93732 /* REPORT */ = {isa = PBXFileReference; lastKnownFileType = text; path = REPORT; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		078BB4641E54E5D300A93732 = {
+			isa = PBXGroup;
+			children = (
+				078BB46A1E54E5D300A93732 /* Boids */,
+				078BB46B1E54E5D300A93732 /* Boids.cpp */,
+				078BB46D1E54E5D300A93732 /* CHECKLIST */,
+				078BB46E1E54E5D300A93732 /* compile.sh */,
+				078BB46F1E54E5D300A93732 /* imgui.cpp */,
+				078BB4711E54E5D300A93732 /* imgui_demo.cpp */,
+				078BB4721E54E5D300A93732 /* imgui_draw.cpp */,
+				078BB4741E54E5D300A93732 /* imgui_impl_glut.cpp */,
+				078BB4751E54E5D300A93732 /* imgui_impl_glut.h */,
+				078BB4771E54E5D300A93732 /* include */,
+				078BB4781E54E5D300A93732 /* lib */,
+				078BB4791E54E5D300A93732 /* Makefile */,
+				078BB47A1E54E5D300A93732 /* REPORT */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		078BB4691E54E5D300A93732 /* Boids */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 078BB47B1E54E5D300A93732 /* Build configuration list for PBXLegacyTarget "Boids" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/Eric/Dropbox/University of Toronto/Winter 2017 Semester/Graphics/Boids/Boids";
+			dependencies = (
+			);
+			name = Boids;
+			passBuildSettingsInEnvironment = 1;
+			productName = Boids;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		078BB4651E54E5D300A93732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 078BB4681E54E5D300A93732 /* Build configuration list for PBXProject "Boids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 078BB4641E54E5D300A93732;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078BB4691E54E5D300A93732 /* Boids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		078BB4661E54E5D300A93732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		078BB4671E54E5D300A93732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		078BB47C1E54E5D300A93732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Boids;
+			};
+			name = Debug;
+		};
+		078BB47D1E54E5D300A93732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Boids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078BB4681E54E5D300A93732 /* Build configuration list for PBXProject "Boids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078BB4661E54E5D300A93732 /* Debug */,
+				078BB4671E54E5D300A93732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078BB47B1E54E5D300A93732 /* Build configuration list for PBXLegacyTarget "Boids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078BB47C1E54E5D300A93732 /* Debug */,
+				078BB47D1E54E5D300A93732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078BB4651E54E5D300A93732 /* Project object */;
+}

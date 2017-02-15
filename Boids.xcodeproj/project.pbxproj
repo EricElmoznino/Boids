@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078BB48F1E54E69F00A93732 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078BB48E1E54E69F00A93732 /* main.cpp */; };
+		078BB4C21E54E6C300A93732 /* Boids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078BB4961E54E6C300A93732 /* Boids.cpp */; };
+		078BB4C31E54E6C300A93732 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078BB49C1E54E6C300A93732 /* imgui_demo.cpp */; };
+		078BB4C41E54E6C300A93732 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078BB49D1E54E6C300A93732 /* imgui_draw.cpp */; };
+		078BB4C51E54E6C300A93732 /* imgui_impl_glut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078BB49E1E54E6C300A93732 /* imgui_impl_glut.cpp */; };
+		078BB4C61E54E6C300A93732 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078BB4A01E54E6C300A93732 /* imgui.cpp */; };
+		078BB4C71E54E6C300A93732 /* lib3ds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 078BB4BE1E54E6C300A93732 /* lib3ds.a */; };
+		078BB4C81E54E6C300A93732 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 078BB4C01E54E6C300A93732 /* Makefile */; };
+		078BB4CC1E54E6E400A93732 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078BB4CB1E54E6E400A93732 /* OpenGL.framework */; };
+		078BB4CE1E54E6EA00A93732 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078BB4CD1E54E6EA00A93732 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +32,48 @@
 
 /* Begin PBXFileReference section */
 		078BB48B1E54E69F00A93732 /* Boids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Boids; sourceTree = BUILT_PRODUCTS_DIR; };
-		078BB48E1E54E69F00A93732 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		078BB4951E54E6C300A93732 /* Boids */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = Boids; sourceTree = "<group>"; };
+		078BB4961E54E6C300A93732 /* Boids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Boids.cpp; sourceTree = "<group>"; };
+		078BB4971E54E6C300A93732 /* Boids.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Boids.xcodeproj; sourceTree = "<group>"; };
+		078BB49A1E54E6C300A93732 /* CHECKLIST */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHECKLIST; sourceTree = "<group>"; };
+		078BB49B1E54E6C300A93732 /* compile.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = compile.sh; sourceTree = "<group>"; };
+		078BB49C1E54E6C300A93732 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		078BB49D1E54E6C300A93732 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		078BB49E1E54E6C300A93732 /* imgui_impl_glut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glut.cpp; sourceTree = "<group>"; };
+		078BB49F1E54E6C300A93732 /* imgui_impl_glut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_glut.h; sourceTree = "<group>"; };
+		078BB4A01E54E6C300A93732 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		078BB4A21E54E6C300A93732 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		078BB4A31E54E6C300A93732 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		078BB4A41E54E6C300A93732 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		078BB4A61E54E6C300A93732 /* atmosphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atmosphere.h; sourceTree = "<group>"; };
+		078BB4A71E54E6C300A93732 /* background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = background.h; sourceTree = "<group>"; };
+		078BB4A81E54E6C300A93732 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		078BB4A91E54E6C300A93732 /* chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chunk.h; sourceTree = "<group>"; };
+		078BB4AA1E54E6C300A93732 /* ease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ease.h; sourceTree = "<group>"; };
+		078BB4AB1E54E6C300A93732 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		078BB4AC1E54E6C300A93732 /* float.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float.h; sourceTree = "<group>"; };
+		078BB4AD1E54E6C300A93732 /* light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		078BB4AE1E54E6C300A93732 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		078BB4AF1E54E6C300A93732 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		078BB4B01E54E6C300A93732 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		078BB4B11E54E6C300A93732 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		078BB4B21E54E6C300A93732 /* quat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quat.h; sourceTree = "<group>"; };
+		078BB4B31E54E6C300A93732 /* readwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readwrite.h; sourceTree = "<group>"; };
+		078BB4B41E54E6C300A93732 /* shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shadow.h; sourceTree = "<group>"; };
+		078BB4B51E54E6C300A93732 /* tcb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcb.h; sourceTree = "<group>"; };
+		078BB4B61E54E6C300A93732 /* tracks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tracks.h; sourceTree = "<group>"; };
+		078BB4B71E54E6C300A93732 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		078BB4B81E54E6C300A93732 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		078BB4B91E54E6C300A93732 /* viewport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewport.h; sourceTree = "<group>"; };
+		078BB4BA1E54E6C300A93732 /* stb_rect_pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_rect_pack.h; sourceTree = "<group>"; };
+		078BB4BB1E54E6C300A93732 /* stb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_textedit.h; sourceTree = "<group>"; };
+		078BB4BC1E54E6C300A93732 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		078BB4BE1E54E6C300A93732 /* lib3ds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = lib3ds.a; sourceTree = "<group>"; };
+		078BB4BF1E54E6C300A93732 /* lib3ds.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lib3ds.la; sourceTree = "<group>"; };
+		078BB4C01E54E6C300A93732 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		078BB4C11E54E6C300A93732 /* REPORT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = REPORT; sourceTree = "<group>"; };
+		078BB4CB1E54E6E400A93732 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		078BB4CD1E54E6EA00A93732 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078BB4CE1E54E6EA00A93732 /* GLUT.framework in Frameworks */,
+				078BB4CC1E54E6E400A93732 /* OpenGL.framework in Frameworks */,
+				078BB4C71E54E6C300A93732 /* lib3ds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +95,7 @@
 			children = (
 				078BB48D1E54E69F00A93732 /* Boids */,
 				078BB48C1E54E69F00A93732 /* Products */,
+				078BB4CA1E54E6E400A93732 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +110,88 @@
 		078BB48D1E54E69F00A93732 /* Boids */ = {
 			isa = PBXGroup;
 			children = (
-				078BB48E1E54E69F00A93732 /* main.cpp */,
+				078BB4951E54E6C300A93732 /* Boids */,
+				078BB4961E54E6C300A93732 /* Boids.cpp */,
+				078BB4971E54E6C300A93732 /* Boids.xcodeproj */,
+				078BB49A1E54E6C300A93732 /* CHECKLIST */,
+				078BB49B1E54E6C300A93732 /* compile.sh */,
+				078BB49C1E54E6C300A93732 /* imgui_demo.cpp */,
+				078BB49D1E54E6C300A93732 /* imgui_draw.cpp */,
+				078BB49E1E54E6C300A93732 /* imgui_impl_glut.cpp */,
+				078BB49F1E54E6C300A93732 /* imgui_impl_glut.h */,
+				078BB4A01E54E6C300A93732 /* imgui.cpp */,
+				078BB4A11E54E6C300A93732 /* include */,
+				078BB4BD1E54E6C300A93732 /* lib */,
+				078BB4C01E54E6C300A93732 /* Makefile */,
+				078BB4C11E54E6C300A93732 /* REPORT */,
 			);
 			path = Boids;
+			sourceTree = "<group>";
+		};
+		078BB4981E54E6C300A93732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078BB4A11E54E6C300A93732 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				078BB4A21E54E6C300A93732 /* imconfig.h */,
+				078BB4A31E54E6C300A93732 /* imgui.h */,
+				078BB4A41E54E6C300A93732 /* imgui_internal.h */,
+				078BB4A51E54E6C300A93732 /* lib3ds */,
+				078BB4BA1E54E6C300A93732 /* stb_rect_pack.h */,
+				078BB4BB1E54E6C300A93732 /* stb_textedit.h */,
+				078BB4BC1E54E6C300A93732 /* stb_truetype.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		078BB4A51E54E6C300A93732 /* lib3ds */ = {
+			isa = PBXGroup;
+			children = (
+				078BB4A61E54E6C300A93732 /* atmosphere.h */,
+				078BB4A71E54E6C300A93732 /* background.h */,
+				078BB4A81E54E6C300A93732 /* camera.h */,
+				078BB4A91E54E6C300A93732 /* chunk.h */,
+				078BB4AA1E54E6C300A93732 /* ease.h */,
+				078BB4AB1E54E6C300A93732 /* file.h */,
+				078BB4AC1E54E6C300A93732 /* float.h */,
+				078BB4AD1E54E6C300A93732 /* light.h */,
+				078BB4AE1E54E6C300A93732 /* material.h */,
+				078BB4AF1E54E6C300A93732 /* matrix.h */,
+				078BB4B01E54E6C300A93732 /* mesh.h */,
+				078BB4B11E54E6C300A93732 /* node.h */,
+				078BB4B21E54E6C300A93732 /* quat.h */,
+				078BB4B31E54E6C300A93732 /* readwrite.h */,
+				078BB4B41E54E6C300A93732 /* shadow.h */,
+				078BB4B51E54E6C300A93732 /* tcb.h */,
+				078BB4B61E54E6C300A93732 /* tracks.h */,
+				078BB4B71E54E6C300A93732 /* types.h */,
+				078BB4B81E54E6C300A93732 /* vector.h */,
+				078BB4B91E54E6C300A93732 /* viewport.h */,
+			);
+			path = lib3ds;
+			sourceTree = "<group>";
+		};
+		078BB4BD1E54E6C300A93732 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				078BB4BE1E54E6C300A93732 /* lib3ds.a */,
+				078BB4BF1E54E6C300A93732 /* lib3ds.la */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		078BB4CA1E54E6E400A93732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				078BB4CD1E54E6EA00A93732 /* GLUT.framework */,
+				078BB4CB1E54E6E400A93732 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +240,12 @@
 			mainGroup = 078BB4821E54E69F00A93732;
 			productRefGroup = 078BB48C1E54E69F00A93732 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 078BB4981E54E6C300A93732 /* Products */;
+					ProjectRef = 078BB4971E54E6C300A93732 /* Boids.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				078BB48A1E54E69F00A93732 /* Boids */,
@@ -120,7 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078BB48F1E54E69F00A93732 /* main.cpp in Sources */,
+				078BB4C81E54E6C300A93732 /* Makefile in Sources */,
+				078BB4C41E54E6C300A93732 /* imgui_draw.cpp in Sources */,
+				078BB4C31E54E6C300A93732 /* imgui_demo.cpp in Sources */,
+				078BB4C21E54E6C300A93732 /* Boids.cpp in Sources */,
+				078BB4C51E54E6C300A93732 /* imgui_impl_glut.cpp in Sources */,
+				078BB4C61E54E6C300A93732 /* imgui.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +361,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = GEECX5EAT6;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Boids/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +373,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = GEECX5EAT6;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Boids/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
